@@ -230,7 +230,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5132406765)
+DEV_USERS.add(5054708941)
 
 
 if not SPAMWATCH_API:
@@ -245,9 +245,9 @@ else:
 
 
 # Credits Logger
-print("[Himawari] Hima Is Starting. | IGNITE Project | Licensed Under GPLv3.")
-print("[Himawari] Kawaii ! Successfully Connected With IGNITE HQ")
-print("[Himawari] Project Maintained By: @IGNITE_xNetwork ")
+print("[Himawari] GabutProtection Is Starting. | IGNITE Project | Licensed Under GPLv3.")
+print("[Himawari] Boss  ! Successfully Connected With IGNITE HQ")
+print("[Himawari] Project Maintained By: @Rommelxx ")
 
 
 print("[Himawari]: Telegraph Installing")
