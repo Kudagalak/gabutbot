@@ -357,7 +357,7 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("HimawariRobot{}Backup".format(chat_id), "rb"),
+        document=open("GabutProtection{}Backup".format(chat_id), "rb"),
         caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `HimawariRobot-Backup` was specially made for notes.".format(
             chat.title, chat_id, tgl,
         ),
@@ -365,7 +365,7 @@ def export_data(update, context):
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("Himawari{}Backup".format(chat_id))  # Cleaning file
+    os.remove("GabutProtection{}Backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
