@@ -110,16 +110,16 @@ HELP_IMG = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
 START_IMG = "https://telegra.ph/file/eb8617465e7a62650f862.jpg"
     
 PM_START_TEXT = """
-  ⫸ [Himawari](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
+  ⫸ [GabutProtection](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
 Konnichiwa, I am {}
  
-I am an Anime themed group management bot with some fun extras ;)
+I am an GabutProtection themed group management bot with some fun extras ;)
 
 Want to see my powers? hehe, use /help or commands button below."""
 
 
 GROUP_START_TEXT = """
-I'm awake already Onichan!
+I'm awake already Boss!
 Haven't slept since: {} 
 """
 
@@ -131,7 +131,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="📓 Commands", callback_data="help_back"),
-                       InlineKeyboardButton(text="Source 🌐", url=f"https://github.com/ArshCypherZ/HWBot")
+                       InlineKeyboardButton(text="Owner", url=f"@Rommelxx")
                     ],
                     [                  
                        InlineKeyboardButton(
@@ -284,7 +284,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Updates 🌻", url=f"https://telegram.dog/{UPDATES_CHANNEL}")
                       ],
                     [
-                       InlineKeyboardButton(text="Alliance 🌐", url="https://telegram.dog/ViciousAlliance")
+                       InlineKeyboardButton(text="Owner 👑", url="@Rommelxx")
                   ]
                 ]
             ),
@@ -648,7 +648,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 5054708941 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
