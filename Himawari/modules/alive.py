@@ -25,11 +25,11 @@ SOFTWARE.
 from telethon import events, Button, custom
 from Himawari.events import register
 from Himawari import telethn as tbot
-HIMAWARI = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
+HIMAWARI = "https://telegra.ph/file/e7bbf0185b5c52e281681.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   STB = event.sender.first_name
-  STB = "**I m Himawari** \n\n"
+  STB = "**I m GabutProtection** \n\n"
   STB += "**I'm Working Properly**\n\n"
   STB += "**Python Version : 3.9.7**\n\n"
   STB += "**python-Telegram-Bot : 13.7**\n\n"
