@@ -322,8 +322,8 @@ def stats(update, context):
         update.effective_message.reply_text(status +
             "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS]) +
-            "\n\n[⍙ GitHub](https://github.com/ArshCypherZ/HWBot) | [Telegram](https://t.me/Himawari_robot)\n\n" +
-            "╘══「 by [Vicious Alliance](t.me/ViciousAlliance) 」\n",
+            "\n\n[⍙ Owner](@Rommelxx) | [Channel](https://t.me/Jual_Nokos_Telegram)\n\n" +
+            "╘══「 by [TATA](t.me/xynrlz) 」\n",
         parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
     except BaseException:
         update.effective_message.reply_text(
@@ -333,9 +333,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [GitHub](https://github.com/ArshCypherZ/HWBot) | [Telegram](https://t.me/Himawari_Robot)\n\n"
+                    + "\n\n⍙ [Owner](@Rommelxx) | [Channel](https://t.me/@Jual_Nokos_Telegram)\n\n"
                 )
-                + "╘══「 by [Vicious Alliance](t.me/ViciousAlliance) 」\n"
+                + "╘══「 by [TATA](t.me/xynrlz) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,         
             disable_web_page_preview=True,
