@@ -104,13 +104,13 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 HELP_MSG = "Click the button below to get help menu in your pm hihi~"
-START_MSG = "*Hie Onichwannnn~ UwU* I am well and alive ;)"
+START_MSG = "*Halo Boss * I am well and alive ;)"
 
-HELP_IMG = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
-START_IMG = "https://telegra.ph/file/eb8617465e7a62650f862.jpg"
+HELP_IMG = "https://telegra.ph/file/e7bbf0185b5c52e281681.jpg"
+START_IMG = "https://telegra.ph/file/e7bbf0185b5c52e281681.jpg"
     
 PM_START_TEXT = """
-  ⫸ [GabutProtection](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
+  ⫸ [GabutProtection](https://telegra.ph/file/e7bbf0185b5c52e281681.jpg) ⫷
 Konnichiwa, I am {}
  
 I am an GabutProtection themed group management bot with some fun extras ;)
