@@ -279,7 +279,7 @@ print("[INFO]: INITIALIZING ARQ CLIENT")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 print("[Hima]: Connecting To IGNITE HQ • PostgreSQL Database")
 #ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID, APP_HASH)
-print("[Hima]: Connecting To IGNITE HQ • Userbot (t.me/IGNITE_xNETWORK)")
+print("[Hima]: Connecting To IGNITE HQ • Userbot (t.me/gabutjoinsini)")
 timeout = httpx.Timeout(40)
 http = httpx.AsyncClient(http2=True, timeout=timeout)
 
